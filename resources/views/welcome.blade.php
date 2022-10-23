@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="container mt-5" style="max-width: 800px">
+<div class="container mt-5">
     <form method="POST" action="{{ route('createProduct') }}" autocomplete="off">
         @if(count($errors))
             <div class="alert alert-danger">
